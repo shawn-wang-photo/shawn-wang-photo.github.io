@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://shawn-wang-photo.github.io/shawn-wang-photo.github.io",
+  "homepage": "https://shawn-wang-photo.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
