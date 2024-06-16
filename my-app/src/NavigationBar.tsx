@@ -13,7 +13,7 @@ function NavigationBar() {
             </div>
             <div className='footer'>
                 <div className="about">About</div>
-                <InstagramIcon />
+                <div className="instagramIcon"><InstagramIcon /></div>
             </div>
         </div>
     );

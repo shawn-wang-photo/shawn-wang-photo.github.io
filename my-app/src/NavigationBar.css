@@ -44,6 +44,16 @@
 
 .category {
     cursor: pointer;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    transition: padding-right 0.2s ease;
+}
+
+.category:hover {
+    border-right: 5px solid;
+    padding-right: 5px;
+    transition: padding-right 0.2s ease;
 }
 
 .footer {
@@ -57,5 +67,9 @@
 
 .about {
     font-size: 16px;
+    cursor: pointer;
+}
+
+.instagramIcon {
     cursor: pointer;
 }
