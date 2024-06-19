@@ -36,10 +36,10 @@
     align-items: flex-end;
     gap: 25px;
     justify-content: flex-end;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     font-family: 'Raleway';
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .category {
@@ -57,7 +57,7 @@
 }
 
 .footer {
-    height: 20vh;
+    height: 15vh;
     font-family: 'Merriweather';
     display: flex;
     flex-direction: column;

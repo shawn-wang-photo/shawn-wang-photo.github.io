@@ -1,5 +1,29 @@
+@font-face {
+    font-family: "Merriweather Italic";
+    src: url("./font/Merriweather-Italic.ttf") format("truetype");
+}
+
 .homePageContainer {
     display: flex;
     height: 100%;
-    width: 100%; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    justify-content: center;
+}
+
+.caption {
+    font-family: 'Merriweather Italic';
+    font-size: 14px;
+}
+
+.homeImage {
+    max-height: 75vh;
 }
