@@ -17,6 +17,7 @@
     align-items: flex-end;
     gap: 15px;
     justify-content: center;
+    animation: fadeIn 1.8s
 }
 
 .caption {
@@ -27,3 +28,12 @@
 .homeImage {
     max-height: 75vh;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
