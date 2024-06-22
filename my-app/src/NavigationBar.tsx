@@ -13,7 +13,11 @@ function NavigationBar() {
             </div>
             <div className='footer'>
                 <div className="about">About</div>
-                <div className="instagramIcon"><InstagramIcon /></div>
+                <div className="instagramIcon">
+                    <a target="_blank" href='https://www.instagram.com/shawn.wang.photography/' rel="noreferrer">
+                        <InstagramIcon />
+                    </a>
+                </div>
             </div>
         </div>
     );
