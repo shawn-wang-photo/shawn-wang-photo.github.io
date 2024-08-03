@@ -19,6 +19,7 @@
 .navLink {
     text-decoration: none;
     color: black;
+    font-kerning: normal;
 }
 
 .title {

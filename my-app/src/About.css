@@ -1,4 +1,33 @@
 .aboutPageContainer {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBlock {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.aboutCaption {
+    font-family: 'Merriweather Italic';
+    font-size: 14px;
+}
+
+.aboutImage {
+    width: 100%;
+}
+
+.aboutText {
+    font-family: 'Merriweather';
+    font-size: 14px;
+    text-align: left;
+    margin-top: 40px;
+    line-height: 170%;
 }
